@@ -12,9 +12,9 @@ public class Fit {
 
     public static void main(String[] args) {
         double man = Fit.manWeight((short) 173);
-        double woman = Fit.womanWeight((short) 163);
+        double woman = Fit.womanWeight((short) 164);
         System.out.println("Man 173 is " + man);
-        System.out.println("Woman 163 is " + woman);
+        System.out.println("Woman 164 is " + woman);
 
     }
 }
