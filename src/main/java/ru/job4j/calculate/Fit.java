@@ -6,7 +6,6 @@ public class Fit {
         return (height - 100) * 1.15;
     }
 
-    @SuppressWarnings("checkstyle:WhitespaceAround")
     public static double womanWeight(short height) {
         return (height - 110) * 1.15;
     }
