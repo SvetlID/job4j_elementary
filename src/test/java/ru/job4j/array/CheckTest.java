@@ -13,7 +13,7 @@ public class CheckTest {
 
     @Test
     public void whenDataNotMonoByTrueThenFalse() {
-        boolean[] data = new boolean[] {true, false, true};
+        boolean[] data = new boolean[] {true, true, false};
         boolean result = Check.mono(data);
         Assert.assertFalse(result);
     }
