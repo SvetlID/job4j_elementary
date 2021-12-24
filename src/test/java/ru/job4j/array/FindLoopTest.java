@@ -41,18 +41,18 @@ public class FindLoopTest {
     }
 
     @Test
-    public void whenFind3() {
+    public void when4Find4() {
         int[] data = new int[]{5, 2, 10, 2, 4};
-        int el = 2;
+        int el = 4;
         int start = 2;
         int finish = 4;
         int result = FindLoop.indexOf(data, el, start, finish);
-        int expected = 3;
+        int expected = 4;
         Assert.assertEquals(expected, result);
     }
 
     @Test
-    public void whenFindMin1() {
+    public void when5FindMin1() {
         int[] data = new int[]{5, 2, 10, 2, 4};
         int el = 5;
         int start = 1;
